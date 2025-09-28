@@ -148,8 +148,8 @@ const gameReducer = (state, action) => {
         };
       }
       
-      const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-      const selectedQuestion = availableQuestions[randomIndex];
+      // Вибираємо перше доступне питання (послідовний порядок)
+      const selectedQuestion = availableQuestions[0];
       const originalIndex = round2Questions.findIndex(q => q.id === selectedQuestion.id);
       
       return {
@@ -265,8 +265,8 @@ const gameReducer = (state, action) => {
         };
       }
       
-      const randomRound3Index = Math.floor(Math.random() * availableRound3Questions.length);
-      const selectedRound3Question = availableRound3Questions[randomRound3Index];
+      // Вибираємо перше доступне питання (послідовний порядок)
+      const selectedRound3Question = availableRound3Questions[0];
       const actualRound3Index = round3Questions.findIndex(q => q.id === selectedRound3Question.id);
       
       return {

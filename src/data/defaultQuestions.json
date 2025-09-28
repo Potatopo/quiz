@@ -2,7 +2,7 @@
   "rounds": {
     "round1": {
       "categories": {
-        "history": {
+        "category1": {
           "name": "Історія",
           "questions": {
             "easy": {
@@ -15,7 +15,7 @@
             }
           }
         },
-        "geography": {
+        "category2": {
           "name": "Географія",
           "questions": {
             "easy": {
@@ -28,7 +28,7 @@
             }
           }
         },
-        "science": {
+        "category3": {
           "name": "Наука",
           "questions": {
             "easy": {
@@ -41,7 +41,7 @@
             }
           }
         },
-        "literature": {
+        "category4": {
           "name": "Література",
           "questions": {
             "easy": {
@@ -54,7 +54,7 @@
             }
           }
         },
-        "sports": {
+        "category5": {
           "name": "Спорт",
           "questions": {
             "easy": {
@@ -67,7 +67,7 @@
             }
           }
         },
-        "music": {
+        "category6": {
           "name": "Музика",
           "questions": {
             "easy": {
